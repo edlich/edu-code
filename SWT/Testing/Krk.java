@@ -10,6 +10,6 @@ public class KrK { // Krankenkasse
   public int calcBeitag(int brutto) {
     int netto = cs.calcNetto(brutto); // Aaaaaah! Problem!!!
     System.out.println("BÖSE XXXXXXXXX - 1Mio $");
-    return netto / 5; // Darum geht es!
+    return netto / 5.0; // Darum geht es!
   }
 }
